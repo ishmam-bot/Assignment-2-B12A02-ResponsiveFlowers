@@ -1,16 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Flower Market</title>
+  </head>
 
-</head>
-<body>
+  <body class="">
+    <header>
+      <nav
+        class="flex items-center justify-between mt-3 mb-[120px] ml-[150px] mr-[150px] max-sm:flex max-sm:ml-[16px] max-sm:mr-[16px] max-sm:mt-[13px] max-sm:mb-[28px]"
+      >
+        <img
+          class="max-sm:w-[68px] max-sm:h-[45px]"
+          src="assets/logo.png"
+          alt="Flower Market Logo"
+        />
 
-    <h1 class="underline">Test</h1>
-    
-</body>
+        <div
+          class="inter flex gap-[48px] max-sm:gap-[16px] max-sm:items-center"
+        >
+          <a class="font-bold max-sm:hidden" href="">Home</a>
+          <a class="text-[#8987A1] max-sm:hidden" href="">Shop</a>
+          <a class="text-[#8987A1] max-sm:hidden" href="">About us</a>
+          <a href="#" class="flex items-center gap-1">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Cart ($56)</span>
+          </a>
+        </div>
+      </nav>
+
+      <section
+        class="flex items-end justify-between mt-0 mb-[120px] ml-[150px] mr-[150px] max-sm:ml-0 max-sm:mr-0 max-sm:px-4 max-sm:flex max-sm:flex-col max-sm:gap-[28px] max-sm:mb-[60px]"
+      >
+        <div class="noto-serif max-sm:order-2 max-sm:text-left">
+          <h1 class="font-bold text-[58px] max-sm:text-2xl">
+            ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span>
+          </h1>
+
+          <p
+            class="inter text-[22px] text-[#000000] opacity-50 max-sm:text-sm max-sm:mt-2"
+          >
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion
+          </p>
+        </div>
+
+        <img
+          src="assets/hero-flower.png"
+          alt="Beautiful fresh flowers arrangement"
+          class="w-[570px] max-w-[600px] max-sm:w-full max-sm:max-w-none max-sm:px-0 max-sm:h-auto max-sm:order-1"
+        />
+      </section>
+    </header>
+
+    <main>
+      <!-- Our plants text -->
+      <section>
+        <div
+          class="noto-serif text-center mx-[150px] mb-[49px] max-sm:ml-[28px] max-sm:mr-[28px]"
+        >
+          <h1 class="font-bold text-[3.125rem] max-sm:text-[24px] max-sm:mb-2">
+            Our<span class="text-[#E95A08]"> Plants</span>
+          </h1>
+
+          <p
+            class="inter text-[22px] text-black opacity-50 max-sm:text-[14px] max-sm:mt-2 max-sm:mb-0"
+          >
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh.
+          </p>
+        </div>
+      </section>
+      <!-- Our plants list -->
+      <div
+        class="ml-[150px] mr-[150px] grid grid-cols-4 grid-rows-2 gap-6 max-sm:grid-cols-2 max-sm:grid-rows-4 max-sm:ml-[16px] max-sm:mr-[16px] max-sm:mt-0"
+      >
+        <section
+          class="flex flex-col items-center text-center gap-4 p-4 bg-white shadow rounded"
+        >
+          <img
+            src="assets/sample-flower-image.png"
+            alt="Lily Blossom"
+            class="w-full h-auto object-cover rounded"
+          />
+          <div class="inter flex flex-col gap-2">
+            <h1 class="font-medium text-[22px]">Lily Blossom</h1>
+            <h1 class="font-bold text-[22px]">20 USD</h1>
+          </div>
+          <button
+            class="bg-[#E95A08] text-white w-[270px] max-w-full h-[50px] text-[16px] font-semibold rounded hover:bg-orange-700 transition"
+          >
+            ADD TO CART
+          </button>
+        </section>
+        <section
+          class="flex flex-col items-center text-center gap-4 p-4 bg-white shadow rounded"
+        >
+          <img
+            src="assets/sample-flower-image.png"
+            alt="Lily Blossom"
+            class="w-full h-auto object-cover rounded"
+          />
+          <div class="inter flex flex-col gap-2">
+            <h1 class="font-medium text-[22px]">Lily Blossom</h1>
+            <h1 class="font-bold text-[22px]">20 USD</h1>
+          </div>
+          <button
+            class="bg-[#E95A08] text-white w-[270px] max-w-full h-[50px] text-[16px] font-semibold rounded hover:bg-orange-700 transition"
+          >
+            ADD TO CART
+          </button>
+        </section>
+        <section
+          class="flex flex-col items-center text-center gap-4 p-4 bg-white shadow rounded"
+        >
+          <img
+            src="assets/sample-flower-image.png"
+            alt="Lily Blossom"
+            class="w-full h-auto object-cover rounded"
+          />
+          <div class="inter flex flex-col gap-2">
+            <h1 class="font-medium text-[22px]">Lily Blossom</h1>
+            <h1 class="font-bold text-[22px]">20 USD</h1>
+          </div>
+          <button
+            class="bg-[#E95A08] text-white w-[270px] max-w-full h-[50px] text-[16px] font-semibold rounded hover:bg-orange-700 transition"
+          >
+            ADD TO CART
+          </button>
+        </section>
+        <section
+          class="flex flex-col items-center text-center gap-4 p-4 bg-white shadow rounded"
+        >
+          <img
+            src="assets/sample-flower-image.png"
+            alt="Lily Blossom"
+            class="w-full h-auto object-cover rounded"
+          />
+          <div class="inter flex flex-col gap-2">
+            <h1 class="font-medium text-[22px]">Lily Blossom</h1>
+            <h1 class="font-bold text-[22px]">20 USD</h1>
+          </div>
+          <button
+            class="bg-[#E95A08] text-white w-[270px] max-w-full h-[50px] text-[16px] font-semibold rounded hover:bg-orange-700 transition"
+          >
+            ADD TO CART
+          </button>
+        </section>
+        <section
+          class="flex flex-col items-center text-center gap-4 p-4 bg-white shadow rounded"
+        >
+          <img
+            src="assets/sample-flower-image.png"
+            alt="Lily Blossom"
+            class="w-full h-auto object-cover rounded"
+          />
+          <div class="inter flex flex-col gap-2">
+            <h1 class="font-medium text-[22px]">Lily Blossom</h1>
+            <h1 class="font-bold text-[22px]">20 USD</h1>
+          </div>
+          <button
+            class="bg-[#E95A08] text-white w-[270px] max-w-full h-[50px] text-[16px] font-semibold rounded hover:bg-orange-700 transition"
+          >
+            ADD TO CART
+          </button>
+        </section>
+        <section
+          class="flex flex-col items-center text-center gap-4 p-4 bg-white shadow rounded"
+        >
+          <img
+            src="assets/sample-flower-image.png"
+            alt="Lily Blossom"
+            class="w-full h-auto object-cover rounded"
+          />
+          <div class="inter flex flex-col gap-2">
+            <h1 class="font-medium text-[22px]">Lily Blossom</h1>
+            <h1 class="font-bold text-[22px]">20 USD</h1>
+          </div>
+          <button
+            class="bg-[#E95A08] text-white w-[270px] max-w-full h-[50px] text-[16px] font-semibold rounded hover:bg-orange-700 transition"
+          >
+            ADD TO CART
+          </button>
+        </section>
+        <section
+          class="flex flex-col items-center text-center gap-4 p-4 bg-white shadow rounded"
+        >
+          <img
+            src="assets/sample-flower-image.png"
+            alt="Lily Blossom"
+            class="w-full h-auto object-cover rounded"
+          />
+          <div class="inter flex flex-col gap-2">
+            <h1 class="font-medium text-[22px]">Lily Blossom</h1>
+            <h1 class="font-bold text-[22px]">20 USD</h1>
+          </div>
+          <button
+            class="bg-[#E95A08] text-white w-[270px] max-w-full h-[50px] text-[16px] font-semibold rounded hover:bg-orange-700 transition"
+          >
+            ADD TO CART
+          </button>
+        </section>
+        <section
+          class="flex flex-col items-center text-center gap-4 p-4 bg-white shadow rounded"
+        >
+          <img
+            src="assets/sample-flower-image.png"
+            alt="Lily Blossom"
+            class="w-full h-auto object-cover rounded"
+          />
+          <div class="inter flex flex-col gap-2">
+            <h1 class="font-medium text-[22px]">Lily Blossom</h1>
+            <h1 class="font-bold text-[22px]">20 USD</h1>
+          </div>
+          <button
+            class="bg-[#E95A08] text-white w-[270px] max-w-full h-[50px] text-[16px] font-semibold rounded hover:bg-orange-700 transition"
+          >
+            ADD TO CART
+          </button>
+        </section>
+      </div>
+      <!-- Flower and plants lover-->
+      <section
+        class="flex flex-row ml-[150px] mr-[150px] max-sm:flex-col max-sm:ml-[16px] max-sm:mr-[16px] max-sm:items-center"
+      >
+        <div
+          class="mt-[180px] relative inline-block flex-shrink-0 max-sm:mt-[40px] max-sm:w-full max-sm:text-center"
+        >
+          <img
+            src="assets/flower-store.png"
+            alt="Flower store"
+            class="w-[540px] h-[597px] max-sm:w-full max-sm:h-auto"
+          />
+          <div
+            class="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 max-sm:hidden mt-[20px]"
+          >
+            <img
+              src="assets/trusted-badge.png"
+              alt="Trusted badge"
+              class="w-[286px] h-[286px]"
+            />
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col text-left items-start ml-[97px] mt-[200px] max-sm:ml-0 max-sm:mt-0 max-sm:w-full"
+        >
+          <h1 class="noto-serif text-[45px] font-bold">
+            <strong class="max-sm:text-[24px]">Flower & Plants Lover</strong>
+          </h1>
+          <ul
+            class="list-disc inter text-[20px] text-[#000000] opacity-50 mt-[16px] max-sm:text-sm max-sm:mt-2 ml-[20px]"
+          >
+            <li class="mb-2 max-sm:mb-2">
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh.
+            </li>
+            <li class="mb-2 max-sm:mb-2">
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh.
+            </li>
+            <li class="mb-2 max-sm:mb-0">
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- lastest deals-->
+      <section>
+        <div
+          class="noto-serif text-center mt-[75px] mx-[150px] mb-[49px] max-sm:ml-[28px] max-sm:mr-[28px] max-ms:mt-0"
+        >
+          <h1 class="font-bold text-[3.125rem] max-sm:text-[24px] max-sm:mb-2">
+            Latest<span class="text-[#E95A08]"> Deals</span>
+          </h1>
+
+          <p
+            class="inter text-[22px] text-black opacity-50 max-sm:text-[14px] max-sm:mt-2 max-sm:mb-0"
+          >
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
