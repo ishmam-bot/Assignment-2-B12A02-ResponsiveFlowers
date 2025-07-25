@@ -12,7 +12,7 @@
     <title>Flower Market</title>
   </head>
 
-  <body class="">
+  <body class="m-0 p-0">
     <header>
       <nav
         class="flex items-center justify-between mt-3 mb-[120px] ml-[150px] mr-[150px] max-sm:flex max-sm:ml-[16px] max-sm:mr-[16px] max-sm:mt-[13px] max-sm:mb-[28px]"
@@ -39,6 +39,7 @@
       <section
         class="flex items-end justify-between mt-0 mb-[120px] ml-[150px] mr-[150px] max-sm:ml-0 max-sm:mr-0 max-sm:px-4 max-sm:flex max-sm:flex-col max-sm:gap-[28px] max-sm:mb-[60px]"
       >
+        <!-- Heading -->
         <div class="noto-serif max-sm:order-2 max-sm:text-left">
           <h1 class="font-bold text-[58px] max-sm:text-2xl">
             ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span>
@@ -52,12 +53,14 @@
             variety of fresh flowers that are perfect for any occasion
           </p>
         </div>
-
-        <img
-          src="assets/hero-flower.png"
-          alt="Beautiful fresh flowers arrangement"
-          class="w-[570px] max-w-[600px] max-sm:w-full max-sm:max-w-none max-sm:px-0 max-sm:h-auto max-sm:order-1"
-        />
+        <!-- first pic -->
+        <div class="max-sm:flex max-sm:justify-end">
+          <img
+            src="assets/hero-flower.png"
+            alt="Beautiful fresh flowers arrangement"
+            class="max-w-[1440px] max-sm:w-full max-sm:px-0 max-sm:mx-0 max-sm:h-auto max-sm:order-1 m-0 p-0 block max-sm:ml-0"
+          />
+        </div>
       </section>
     </header>
 
@@ -295,6 +298,92 @@
             flower shop. From classic roses to exotic blooms, we offer a wide
             variety of fresh.
           </p>
+        </div>
+      </section>
+      <!-- 25% off zabo plant-->
+
+      <section
+        class="grid grid-cols-[366px_1fr] gap-[19px] mx-[150px] max-sm:mx-[16px] max-sm:grid-cols-1 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:gap-[20px]"
+      >
+        <!-- first pic -->
+        <div class="flex flex-col gap-[19px] max-sm:gap-[20px] max-sm:w-full">
+          <div
+            class="relative w-[366px] h-[175px] max-sm:w-full max-sm:h-[200px]"
+          >
+            <img
+              class="rounded-[14px] w-full h-full object-cover"
+              src="assets/deal-bloom.png"
+              alt=""
+            />
+            <div
+              class="absolute top-0 left-0 w-full h-full bg-black opacity-40 rounded-[14px]"
+            ></div>
+            <div
+              class="noto-serif absolute inset-0 flex flex-col items-center justify-center text-white"
+            >
+              <p class="text-[22px] font-bold">60% Off | Bloom Plant</p>
+              <a href="#" class="inter text-[600] mt-2 text-[16px] underline"
+                >Shop Now</a
+              >
+            </div>
+          </div>
+          <!-- 2nd pic -->
+          <div
+            class="relative w-[366px] h-[175px] max-sm:w-full max-sm:h-[200px]"
+          >
+            <img
+              class="rounded-[14px] w-full h-full object-cover"
+              src="assets/deal-ana.png"
+              alt=""
+            />
+            <div
+              class="absolute top-0 left-0 w-full h-full bg-black opacity-40 rounded-[14px]"
+            ></div>
+            <div
+              class="noto-serif absolute inset-0 flex flex-col items-center justify-center text-white"
+            >
+              <p class="text-[22px] font-bold">30% Off | Ana Plant</p>
+              <a href="#" class="inter mt-2 text-[16px] underline">Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Third pic -->
+        <div class="relative w-full h-[369px] max-sm:w-full max-sm:h-[200px]">
+          <img
+            class="rounded-[14px] w-full h-full object-cover"
+            src="assets/deal-zabo.png"
+            alt=""
+          />
+          <div
+            class="absolute top-0 left-0 w-full h-full bg-black opacity-40 rounded-[14px]"
+          ></div>
+          <div
+            class="noto-serif absolute inset-0 flex flex-col items-center justify-center text-white"
+          >
+            <p class="font-bold text-[40px] max-sm:text-[22px]">
+              25% Off | Zabo Plant
+            </p>
+            <a
+              href="#"
+              class="mt-2 inter text-[28px] max-sm:text-[16px] text-semibold underline"
+              >Shop Now</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- join the colour ful bunch -->
+      <section class="subscribe-section">
+        <h1 class="noto-serif subscribe-heading">Join the colorful Bunch</h1>
+        <div class="subscribe-form">
+          <input
+            type="email"
+            placeholder="Write Email"
+            class="subscribe-input"
+          />
+          <button class="inter text-semibold subscribe-button">
+            Subscribe
+          </button>
         </div>
       </section>
     </main>
